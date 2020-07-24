@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb59235d-f838-4ecf-976b-24efef05006f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/login.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/passwords/confirm.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/passwords/email.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/passwords/reset.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/register.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/verify.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/components/form/input.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/components/form/select.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/home.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/layouts/app.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/layouts/login-layout.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presets/Clarity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presets/clarity-stubs/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presets/clarity-stubs/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Presets/clarity-stubs/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stubs/View/Components/Form/Input.stub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuthCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuthCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControllersCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControllersCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UiCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UiCommand.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1f7pCJ4uRZRO2fW0VlzPVGjrj1X" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stubs" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\OSP537\OpenServer\domains\danvaly\ui\stubs" />
+      <recent name="A:\OSP537\OpenServer\domains\danvaly\ui\src\Auth\clarity-stubs" />
+      <recent name="A:\OSP537\OpenServer\domains\danvaly\ui\src\Auth\clarity-stubs\layouts" />
+      <recent name="A:\OSP537\OpenServer\domains\danvaly\ui\src\Auth" />
+      <recent name="A:\OSP537\OpenServer\domains\danvaly\ui\src\Presets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb59235d-f838-4ecf-976b-24efef05006f" name="Default Changelist" comment="" />
+      <created>1595578856869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595578856869</updated>
+      <workItem from="1595578858102" duration="811000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

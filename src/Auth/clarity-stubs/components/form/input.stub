@@ -1,0 +1,32 @@
+@if($type == 'checkbox')
+    <div class="clr-form-control">
+        <div class="clr-checkbox-wrapper">
+            <input type="checkbox" name="{{$name}}" id="{{$name}}">
+            <label class="clr-control-label" for="{{$name}}">{{$label}}</label>
+        </div>
+        @if($hint)
+            <span class="clr-subtext">{{$hint}}</span>
+        @endif
+        @error($name)
+        <div class="error active"> {{ $message }} </div>
+        @enderror
+    </div>
+@else
+    <div class="clr-form-control">
+        <label class="clr-sr-only clr-control-label" for="{{$name}}">{{ $label }}</label>
+        <div class="clr-control-container @error($name) clr-error @enderror">
+            <div class="clr-input-wrapper">
+                <input id="{{$name}}" type="{{$type}}" class="clr-input" name="{{$name}}"
+                       placeholder="{{$label}}" value="{{ old($name) }}" required autocomplete="{{$autocomplete}}"
+                       autofocus>
+            </div>
+            @if($hint)
+                <span class="clr-subtext">{{$hint}}</span>
+            @endif
+            @error($name)
+            <div class="error active"> {{ $message }} </div>
+            @enderror
+        </div>
+    </div>
+@endif
+

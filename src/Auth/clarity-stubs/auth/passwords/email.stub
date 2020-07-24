@@ -1,0 +1,19 @@
+@extends('layouts.login-layout')
+
+@section('content')
+    <form method="POST" class="login" action="{{ route('password.email') }}">
+        @csrf
+        <section class="title">
+            <h3 class="welcome">{{ __('Reset Password') }}</h3>
+        </section>
+        <div class="login-group">
+            @if (session('status'))
+                <div class="alert alert-success" role="alert">
+                    {{ session('status') }}
+                </div>
+            @endif
+            <x-form-input name="email" type="email" label="{{__('E-Mail Address')}}" hint="{{__('Input account email!')}}"/>
+            <button type="submit" class="btn btn-primary"> {{ __('Send Password Reset Link') }}</button>
+        </div>
+    </form>
+@endsection

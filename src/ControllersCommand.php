@@ -45,5 +45,21 @@ class ControllersCommand extends Command
             });
 
         $this->info('Authentication scaffolding generated successfully.');
+
+        if (! is_dir($directory = app_path('Http/Controllers/View/Components/Form'))) {
+            mkdir($directory, 0755, true);
+        }
+
+        $filesystem = new Filesystem;
+
+        collect($filesystem->allFiles(__DIR__.'/../stubs/View/Components/Form'))
+            ->each(function (SplFileInfo $file) use ($filesystem) {
+                $filesystem->copy(
+                    $file->getPathname(),
+                    app_path('Http/View/Components/Form/'.Str::replaceLast('.stub', '.php', $file->getFilename()))
+                );
+            });
+
+        $this->info('Components scaffolding generated successfully.');
     }
 }

@@ -1,0 +1,22 @@
+@extends('layouts.login-layout')
+
+@section('content')
+    <form method="POST" class="login" action="{{ route('register') }}">
+        <section class="title">
+            <h3 class="welcome">{{__('Welcome to')}}</h3>
+            {{ config('app.name') }}
+            <h5 class="hint">{{__('Complete the form to create your account!') }}</h5>
+        </section>
+        <div class="login-group">
+            @csrf
+            <x-form-input name="name" label="{{__('Name')}}"/>
+            <x-form-input name="email" type="email" label="{{__('E-Mail Address')}}"/>
+            <x-form-input name="password" type="password" autocomplete="new-password" label="{{__('Password')}}"/>
+            <x-form-input name="password_confirmation" type="password" autocomplete="new-password"
+                          label="{{__('Confirm Password')}}"/>
+            <button type="submit" class="btn btn-primary">
+                {{ __('Register') }}
+            </button>
+        </div>
+    </form>
+@endsection

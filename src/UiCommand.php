@@ -37,7 +37,7 @@ class UiCommand extends Command
             return call_user_func(static::$macros[$this->argument('type')], $this);
         }
 
-        if (! in_array($this->argument('type'), ['bootstrap', 'vue', 'react'])) {
+        if (! in_array($this->argument('type'), ['bootstrap', 'vue', 'react', 'clarity'])) {
             throw new InvalidArgumentException('Invalid preset.');
         }
 
@@ -86,6 +86,19 @@ class UiCommand extends Command
         Presets\React::install();
 
         $this->info('React scaffolding installed successfully.');
+        $this->comment('Please run "npm install && npm run dev" to compile your fresh scaffolding.');
+    }
+
+    /**
+     * Install the "clarity" preset.
+     *
+     * @return void
+     */
+    protected function clarity()
+    {
+        Presets\Clarity::install();
+
+        $this->info('Clarity scaffolding installed successfully.');
         $this->comment('Please run "npm install && npm run dev" to compile your fresh scaffolding.');
     }
 }
