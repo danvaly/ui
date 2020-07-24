@@ -50,7 +50,9 @@ class ControllersCommand extends Command
             mkdir($directory, 0755, true);
         }
 
-        $filesystem = new Filesystem;
+        if (! is_dir($directory = app_path('Http/View/Components/Form'))) {
+            mkdir($directory, 0755, true);
+        }
 
         collect($filesystem->allFiles(__DIR__.'/../stubs/View/Components/Form'))
             ->each(function (SplFileInfo $file) use ($filesystem) {
