@@ -7,15 +7,16 @@ Laravel UI Scafoolding with Clarity Support. Based on official module from larav
 [![Latest Unstable Version](https://poser.pugx.org/danvaly/ui/v/unstable)](//packagist.org/packages/danvaly/ui) 
 [![License](https://poser.pugx.org/danvaly/ui/license)](//packagist.org/packages/danvaly/ui)
 
-## Introduction
-
-While Laravel does not dictate which JavaScript or CSS pre-processors you use, it does provide a basic starting point using [Bootstrap](https://getbootstrap.com/), [React](https://reactjs.org/), and / or [Vue](https://vuejs.org/) that will be helpful for many applications. By default, Laravel uses [NPM](https://www.npmjs.org/) to install both of these frontend packages.
-
-**We are not accepting new presets.**
-
 ## Documentation
 
-Documentation can be found on the [Laravel website](https://laravel.com/docs/frontend).
+Official documentation can be found on the [Laravel website](https://laravel.com/docs/frontend).
+```bash
+// Generate basic scaffolding...
+php artisan ui clarity
+
+// Generate login / registration scaffolding...
+php artisan ui clarity --auth
+```
 
 ## Links
 
