@@ -1,11 +1,11 @@
-# Laravel UI - By Danvaly 
+# Laravel UI - with Clarity
 
 Laravel UI Scafoolding with Clarity Support. Based on official module from laravel
 
-
-<a href="https://packagist.org/packages/laravel/ui"><img src="https://poser.pugx.org/laravel/ui/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/ui"><img src="https://poser.pugx.org/laravel/ui/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/ui"><img src="https://poser.pugx.org/laravel/ui/license.svg" alt="License"></a>
+[![Latest Stable Version](https://poser.pugx.org/danvaly/ui/v)](//packagist.org/packages/danvaly/ui) 
+[![Total Downloads](https://poser.pugx.org/danvaly/ui/downloads)](//packagist.org/packages/danvaly/ui) 
+[![Latest Unstable Version](https://poser.pugx.org/danvaly/ui/v/unstable)](//packagist.org/packages/danvaly/ui) 
+[![License](https://poser.pugx.org/danvaly/ui/license)](//packagist.org/packages/danvaly/ui)
 
 ## Introduction
 
@@ -13,22 +13,12 @@ While Laravel does not dictate which JavaScript or CSS pre-processors you use, i
 
 **We are not accepting new presets.**
 
-## Official Documentation
+## Documentation
 
 Documentation can be found on the [Laravel website](https://laravel.com/docs/frontend).
 
-## Contributing
+## Links
 
-Thank you for considering contributing to UI! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+For more information about Laravel go to [Laravel website](https://laravel.com/).
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-Please review [our security policy](https://github.com/laravel/ui/security/policy) on how to report security vulnerabilities.
-
-## License
-
-Laravel UI is open-sourced software licensed under the [MIT license](LICENSE.md).
+For more information about Clarity go to [Clarity website](https://clarity.design/).
