@@ -26,9 +26,9 @@ class Clarity extends Preset
     protected static function updatePackageArray(array $packages)
     {
         return [
-            'bootstrap' => '^4.0.0',
-            'jquery' => '^3.2',
-            'popper.js' => '^1.12',
+            '@clr/icons' => '^3.1.4',
+            '@clr/ui' => '^3.1.4',
+            '@webcomponents/custom-elements' => '^1.0.0',
         ] + $packages;
     }
 
@@ -50,6 +50,6 @@ class Clarity extends Preset
      */
     protected static function updateBootstrapping()
     {
-        copy(__DIR__.'/clarity-stubs/clarity.js', resource_path('js/clarity.js'));
+        copy(__DIR__.'/clarity-stubs/bootstrap.js', resource_path('js/bootstrap.js'));
     }
 }

@@ -1,4 +1,7 @@
-# Laravel UI
+# Laravel UI - By Danvaly 
+
+Laravel UI Scafoolding with Clarity Support. Based on official module from laravel
+
 
 <a href="https://packagist.org/packages/laravel/ui"><img src="https://poser.pugx.org/laravel/ui/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/ui"><img src="https://poser.pugx.org/laravel/ui/v/stable.svg" alt="Latest Stable Version"></a>

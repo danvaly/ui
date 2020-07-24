@@ -26,26 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb59235d-f838-4ecf-976b-24efef05006f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/login.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/passwords/confirm.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/passwords/email.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/passwords/reset.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/register.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/auth/verify.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/components/form/input.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/components/form/select.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/home.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/layouts/app.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/clarity-stubs/layouts/login-layout.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Presets/Clarity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Presets/clarity-stubs/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Presets/clarity-stubs/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Presets/clarity-stubs/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stubs/View/Components/Form/Input.stub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AuthCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuthCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ControllersCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControllersCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UiCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UiCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presets/Clarity.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presets/Clarity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presets/clarity-stubs/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presets/clarity-stubs/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presets/clarity-stubs/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presets/clarity-stubs/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Presets/clarity-stubs/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presets/clarity-stubs/bootstrap.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595578856869</updated>
-      <workItem from="1595578858102" duration="811000" />
+      <workItem from="1595578858102" duration="1161000" />
     </task>
     <servers />
   </component>

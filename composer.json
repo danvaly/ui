@@ -1,9 +1,13 @@
 {
     "name": "danvaly/ui",
-    "description": "Laravel UI utilities and presets.",
+    "description": "Laravel UI utilities and presets. include clarity",
     "keywords": ["laravel", "ui"],
     "license": "MIT",
     "authors": [
+        {
+            "name": "Valentin Ghica",
+            "email": "vali@danvaly.ro"
+        },
         {
             "name": "Taylor Otwell",
             "email": "taylor@laravel.com"
